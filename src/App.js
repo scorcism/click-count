@@ -34,7 +34,6 @@ function App() {
         count
       })
     })
-    console.log("Submitted")
     document.getElementById("count").innerHTML = `${count.count}`
   }
 
